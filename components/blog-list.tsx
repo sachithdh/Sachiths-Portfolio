@@ -3,33 +3,32 @@ import { Pin } from "./pin"
 import { Calendar, Clock } from "lucide-react"
 
 
-const blogPosts: any = []
-// const blogPosts = [
-//   {
-//     id: "1",
-//     title: "Building Accessible React Components",
-//     excerpt: "A deep dive into creating accessible React components that work for everyone.",
-//     date: "2024-01-15",
-//     readTime: "8 min read",
-//     tags: ["React", "Accessibility", "Web Development"],
-//   },
-//   {
-//     id: "2",
-//     title: "TypeScript Best Practices in 2024",
-//     excerpt: "Modern TypeScript patterns and practices for building robust applications.",
-//     date: "2024-01-10",
-//     readTime: "12 min read",
-//     tags: ["TypeScript", "Best Practices"],
-//   },
-//   {
-//     id: "3",
-//     title: "Optimizing Next.js Performance",
-//     excerpt: "Tips and tricks for making your Next.js applications blazingly fast.",
-//     date: "2024-01-05",
-//     readTime: "10 min read",
-//     tags: ["Next.js", "Performance", "Optimization"],
-//   },
-// ]
+const blogPosts = [
+  {
+    id: "1",
+    title: "Building Accessible React Components",
+    excerpt: "A deep dive into creating accessible React components that work for everyone.",
+    date: "2024-01-15",
+    readTime: "8 min read",
+    tags: ["React", "Accessibility", "Web Development"],
+  },
+  {
+    id: "2",
+    title: "TypeScript Best Practices in 2024",
+    excerpt: "Modern TypeScript patterns and practices for building robust applications.",
+    date: "2024-01-10",
+    readTime: "12 min read",
+    tags: ["TypeScript", "Best Practices"],
+  },
+  {
+    id: "3",
+    title: "Optimizing Next.js Performance",
+    excerpt: "Tips and tricks for making your Next.js applications blazingly fast.",
+    date: "2024-01-05",
+    readTime: "10 min read",
+    tags: ["Next.js", "Performance", "Optimization"],
+  },
+]
 
 export function BlogList() {
   if (blogPosts.length === 0) {
